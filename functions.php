@@ -1,5 +1,3 @@
 <?php
-    $THEMEDIR = get_template_directory();
-
-    require $THEMEDIR . '/inc/function-admin.php';
+    require get_template_directory() . '/inc/function-admin.php';
 
